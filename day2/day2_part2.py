@@ -69,7 +69,7 @@ def match(play1, strategy):
     result = playbook[play1, strategy]
     return getWinLossScore(strategy) + getShapeScore(playbook[play1, strategy])
 
-strategy_file_path = "/home/jamesv/sandbox/snippets/python/aoc2022/day2/day2_input.txt"
+strategy_file_path = "day2_input.txt"
 
 with open(strategy_file_path) as f:
   lines = [line for line in f]

@@ -4,7 +4,7 @@ import os
 def total_sort(e):
   return e["total"]
 
-calorie_file_path = "/home/jamesv/sandbox/snippets/python/aoc2022/day1_input.txt"
+calorie_file_path = "day1_input.txt"
 
 with open(calorie_file_path) as f:
   lines = [line for line in f]
