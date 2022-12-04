@@ -21,7 +21,7 @@ with open(rucksack_file_path) as f:
 
 total = 0
 for line in lines:
-#for line in testInput.splitlines():  
+#for line in testInput.splitlines():
   compart1 = line[0:(len(line)//2)]
   compart2 = line[len(line)//2:]
 
